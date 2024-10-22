@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>RSS Sorteio</title>
-</head>
-<body>
-    <img src="./assets/foto-logo.jpg" alt="foto-logo">
+  </head>
+  <body>
+    <main class="container">
+      <img src="./assets/foto-logo.jpg" alt="foto-logo" />
 
-    <h1>RSS Sorteio </h1>
+      <h1>RSS Sorteio</h1>
 
-    <h3>Sortear um Número</h3>
+      <h3>Sortear um Número</h3>
+      <div class="input-dados">
+        <input class="input-inicio" placeholder=" Entre 01" />
+        <p>e</p>
+        <input class="input-fim"  placeholder="Número final" />
+        <br />
+        <br />
+      </div>
+      <button onclick="sortear()">Sortear</button>
 
-    <input type="text" placeholder=" Entre 01" >
-    <p>e</p>
-    <input type="text" placeholder="Número final">
-    <br>
-    <br>
-    <button>Sortear</button>
-    
-</body>
+      <p class="resultado"></p>
+    </main>
+  </body>
+    <script src="./script.js"></script>
 </html>
