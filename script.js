@@ -14,7 +14,7 @@ const maquina = () => {
   let valorFinal = 10;
   const resultado =
     Math.floor(Math.random() * (valorFinal - valorInicial + 1)) + valorInicial;
-  console.log(resultado);
+    
   resultados.innerHTML = resultado;
   return resultado;
 };
@@ -24,8 +24,7 @@ let maquinaNumero = 0;
 
 const resultadoFinal = (acertou, maquina) => {
   acertou = Math.floor(document.querySelector(".input-escolher").value); // input
-  console.log(acertou, maquina);
-
+  
   if (acertou === maquina) {
     jogadorNumero++;
     jogadorPontuacao.innerHTML = jogadorNumero;
@@ -38,8 +37,9 @@ const resultadoFinal = (acertou, maquina) => {
     escolhido.innerHTML =
       "VOCÊ PERDEU!! Você Pode Escolher Outro Número Se Quizer";
   }
-};
+ 
+}  
 
 const reiniciar = () => {
   location.reload();
-};
+ }
