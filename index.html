@@ -11,19 +11,31 @@
       <img src="./assets/foto-logo.jpg" alt="foto-logo" />
 
       <h1>RSS Sorteio</h1>
-
+  <!--
       <h3> Escolha dois Números</h3>
-      <div class="input-dados">
-        <input class="input-inicio" placeholder=" Valor inicial" />
+    <div class="input-dados">
+        <input class="input-inicio" placeholder="Valor inicial" />
         <p>e</p>
-        <input class="input-fim"  placeholder=" Valor final" />
+        <input class="input-fim"  placeholder="Valor final" />
         <br />
         <br />
       </div>
+    -->
+      <h3>Descubra Qual Será Número Entre:  </h3>
+        <input class="input-escolher" placeholder="01 à 10" />
+      <br>
+      <br>
       <button onclick="sortear()">Sortear</button>
-      <h4>Numeros Sorteados</h4>
+      <h4>Numero Sorteado</h4>
+
       <p class="resultados"></p>
+      <p class="escolhido"></p>
+      <p class="ganhou"></p>
       
+      <div class="pontuacao">
+        <p class="pontos">Sua Pontuação: <span class="azul">0</span></p>
+        <p class="pontos">Pontuação da Maquina: <span class="verm">0</span></p>
+      </div>
      
     </main>
   </body>
