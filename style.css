@@ -79,6 +79,7 @@ button{
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 30px;
+    background-color: aquamarine;
 }
 
 .resultados{
@@ -113,6 +114,10 @@ input::placeholder{
 
 .ganhou{
     color: green;
+}
+
+.reiniciar{
+   color: red;
 }
 
 .pontuacao{
