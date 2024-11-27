@@ -1,13 +1,12 @@
 
-//const valorInicial = Math.ceil(document.querySelector(".input-inicio").value);
-// const valorFinal = Math.floor(document.querySelector(".input-fim").value);
+
 
 const acertou = Math.floor(document.querySelector(".input-escolher").value); // input
 const resultados = document.querySelector(".resultados"); // p
 const escolhido = document.querySelector(".escolhido"); //p
 const ganhou = document.querySelector(".ganhou"); // p
-const jogadorPontuacao = document.querySelector(".azul");
-const MaquinaPontuacao = document.querySelector(".verm");
+const jogadorPontuacao = document.querySelector(".azul"); //Número azul
+const MaquinaPontuacao = document.querySelector(".verm");// Número vermelho
 
 const sortear = (escolheu) => {
   resultadoFinal(escolheu, maquina());
