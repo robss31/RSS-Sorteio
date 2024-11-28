@@ -10,7 +10,7 @@ const sortear = (escolheu) => {
 };
 
 const maquina = () => {
-  let valorInicial = 2;
+  let valorInicial = 1;
   let valorFinal = 10;
   const resultado =
     Math.floor(Math.random() * (valorFinal - valorInicial + 1)) + valorInicial;
